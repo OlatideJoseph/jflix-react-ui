@@ -1,4 +1,6 @@
 import * as React from 'react'
+import Button from '../../components/buttons/button.jsx'
+import landingImage from '../../assets/landing-image.webp'
 import './first-view.css'
 
 const FirstView = () => {
@@ -10,12 +12,19 @@ const FirstView = () => {
       <div
         className='fvfi'
       >
-        <p>Image</p>
+        <img
+          className='landing-image'
+          src={landingImage}
+          alt='land-image'
+        />
       </div>
       <div
         className='fvsi'
       >
         <p>Description & Button</p>
+        <Button className='landing-btn'>
+          Start
+        </Button>
       </div>
     </section>
   )
