@@ -21,9 +21,10 @@ const FirstView = () => {
       <div
         className='fvsi'
       >
-        <p>Description & Button</p>
+        <h2>Unlimited Movies, Tv Shows and more.</h2>
+        <p>Description & Start</p>
         <Button className='landing-btn'>
-          Start
+          Start Exploration
         </Button>
       </div>
     </section>
